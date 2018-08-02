@@ -4,7 +4,7 @@
  * Copyright 2013-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 module.exports = function (grunt) {
   'use strict';
 
