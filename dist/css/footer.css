@@ -1,0 +1,22 @@
+.footer-wrap {
+  background-color: #373f48;
+  margin-top: 20px;
+}
+.footer-content h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  /*margin-left: 40%;*/
+  text-align: center;
+}
+.footer-content .footer-content_list p {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin: 2px auto;
+}
+.footer-copyright {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}

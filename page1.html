@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title-Page1</title>
+  <link href="./dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./dist/css/footer.css" rel="stylesheet" type="text/css">
+  <link href="./dist/css/page1.css" rel="stylesheet" type="text/css">
+  <style>
+    .hx-nav {
+      height: 50px;
+      margin-bottom: 30px;
+    }
+    .hx-nav .navbar-nav {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .hx-page_banner {
+      width: 100%;
+      height: auto;
+    }
+    .hx-page_wrap {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-static-top hx-nav">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="./images/jingcaihx.jpg" height="50px">
+      </a>
+      <a class="navbar-brand">
+        <img src="./images/hx2.png" height="50px;">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">页面2</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">页面2</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">页面2</a></li>
+        <li><a type="button" class="btn btn-primary">登录</a></li>
+        <li><a type="button" class="btn btn-default">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="hx-page_banner">
+  <img src="./images/hx7.jpg" style="width: 100%;">
+</div>
+<div class="container hx-page_wrap">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2 class="text-center">省内领先溯源平台 + 监控、追溯、安全一体化</h2>
+      <p style="font-size: 18px;margin-top: 30px;">徽县溯源平台致力于利用先进的“物联网、云计算、移动互联网”等技术助力徽县扶贫事业<br>让徽县的农特产品以及工业产品走进千家万户，让人们吃的放心、用的安心。</p>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 20px">
+    <div class="col-md-12 text-center hx-tabpanel">
+      <div class="tab" role="tabpanel">
+        <!-- tab nav -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">
+              <span><i class="hx-nav_tabs-section1"></i></span>
+              RFID射频识别
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#Section2" aria-controls="home" role="tab" data-toggle="tab">
+              <span><i class="hx-nav_tabs-section2"></i></span>
+              二维码快速溯源
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#Section3" aria-controls="home" role="tab" data-toggle="tab">
+              <span><i class="hx-nav_tabs-section3"></i></span>
+              NFC快速响应
+            </a>
+          </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content tabs">
+          <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+            <div class="hx-tabpanel_content">
+              <h3>RFID 射频识别技术</h3>
+              <p>RFID 是一种非接触式的自动识别技术,它通过射频信息自动识别目标对象并获取相关数据，识别无须人工干预,作为条形码的无线版本，RFID 具有条形码不具备的防水、防磁、防潮、耐高温、使用寿命长、读取距离大、标签上的数据可以加密、存储数据容量更大、存储信息更改自如等优点，应用到食品安全行业内则是对植物或动物以及原材料等通过 RFID 进行溯源。</p>
+            </div>
+            <div class="hx-tabpanel_img">
+              <img src="./images/hx82.gif">
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="Section2">
+            <div class="hx-tabpanel_content">
+              <h3>二维码快速溯源</h3>
+              <p>二维码快速溯源 —— 通过后台管理软件为每个商品生成只有唯一字符串标识的二维码，该二维码可以是单一的字符串，也可以是一串 URL，通过微信、浏览器或者特定的 APP 就可以扫描查看到具体的溯源信息，该字符串具有唯一性且防止篡改。</p>
+            </div>
+            <div class="hx-tabpanel_img">
+              <img src="./images/hx10.jpg" style="width: 500px;">
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="Section3">
+            <div class="hx-tabpanel_content">
+              <h3>NFC 快速响应</h3>
+              <p>NFC 一种近场通讯技术，应用到溯源则是在溯源的标签内含有 NFC 芯片，该芯片具有唯一的编码，且和二维码绑定，利用特定的 APP 实现不用扫描二维码只需要接触芯片即可实现溯源查询。</p>
+            </div>
+            <div class="hx-tabpanel_img">
+              <img src="./images/hx12.jpg" style="width: 500px;">
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid footer-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="footer-content col-md-4">
+        <h3>测试链接</h3>
+        <div class="footer-content_list">
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+        </div>
+      </div>
+      <div class="footer-content col-md-4">
+        <h3>测试链接</h3>
+        <div class="footer-content_list">
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+        </div>
+      </div>
+      <div class="footer-content col-md-4">
+        <h3>测试链接</h3>
+        <div class="footer-content_list">
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+          <p>恒大淘宝</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 footer-copyright">
+        宁夏百创@copyRight 2017-2018
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<script>
+</script>
+</body>
+</html>

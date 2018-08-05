@@ -40,3 +40,8 @@ validation-status.json
 # Folders to ignore
 bower_components
 node_modules
+/.node_modules
+grunt
+js
+less
+test-info
