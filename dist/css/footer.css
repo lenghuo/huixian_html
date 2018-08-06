@@ -19,4 +19,13 @@
   color: #fff;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-content .footer-content_left {
+  border-right: 1px solid #FFFFFF;
+}
+.footer-content .footer-content_left p {
+  font-size: 15px;
+  color: #fff;
+  margin: 2px auto;
 }

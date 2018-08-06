@@ -103,3 +103,13 @@
 .hx-tabpanel .tab .tab-content .hx-tabpanel_img {
   float: right;
 }
+.hx-page_shortcut .shortcut{height: 400px; margin:0px auto; position:relative; z-index:101; overflow:hidden;}
+.hx-page_shortcut .shortcut a{ margin-right:20px; display:block; width:230px; height:400px; position:relative; overflow:hidden; float:left; transition:all 0.3s linear; -webkit-transition:all 0.3s linear; top:0px;}
+.hx-page_shortcut .shortcut a img{ position:absolute; left:0px; top:0px;}
+.hx-page_shortcut .shortcut a span{ position:absolute; line-height:18px; font-family:arial; color:#fff; left:15px; bottom:32px; transition:all 1s; -webkit-transition:all 1s;}
+.hx-page_shortcut .shortcut a .imgH{ left:-230px; transition:all 0.2s ease; -webkit-transition:all 0.2s ease;}
+.hx-page_shortcut .shortcut a:hover{ text-decoration:none;}
+.hx-page_shortcut .shortcut a:hover .imgH{ display:block; left:0px;}
+.hx-page_shortcut .shortcut a:hover span{ animation: img4 0.8s linear infinite alternate; -webkit-animation: img4 1s linear infinite alternate;}
+.hx-page_shortcut .shortcut a span { display: none }
+.hx-page_shortcut .shortcut a:hover span { display: block }
